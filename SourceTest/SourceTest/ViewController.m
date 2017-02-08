@@ -18,6 +18,9 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     self.title = @"First Controller";
+    UIView *backView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
+    backView.backgroundColor = [UIColor redColor];
+    [self.view addSubview:backView];
 }
 
 
