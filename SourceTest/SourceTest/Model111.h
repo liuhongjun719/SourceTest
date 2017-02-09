@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @interface Model111 : NSObject
-
+@property(nonatomic, strong) NSArray *childs;
 @end
