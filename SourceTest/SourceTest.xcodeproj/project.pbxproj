@@ -15,6 +15,7 @@
 		5F6EEE7F1E4AB888004779CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F6EEE7D1E4AB888004779CF /* LaunchScreen.storyboard */; };
 		5F6EEE8A1E4AB888004779CF /* SourceTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6EEE891E4AB888004779CF /* SourceTestTests.m */; };
 		5F6EEE951E4AB888004779CF /* SourceTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6EEE941E4AB888004779CF /* SourceTestUITests.m */; };
+		5F6EEEC51E4C2BA0004779CF /* Model2.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6EEEC41E4C2BA0004779CF /* Model2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		5F6EEE901E4AB888004779CF /* SourceTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SourceTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F6EEE941E4AB888004779CF /* SourceTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SourceTestUITests.m; sourceTree = "<group>"; };
 		5F6EEE961E4AB888004779CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F6EEEC31E4C2BA0004779CF /* Model2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model2.h; sourceTree = "<group>"; };
+		5F6EEEC41E4C2BA0004779CF /* Model2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				5F6EEE7D1E4AB888004779CF /* LaunchScreen.storyboard */,
 				5F6EEE801E4AB888004779CF /* Info.plist */,
 				5F6EEE6F1E4AB887004779CF /* Supporting Files */,
+				5F6EEEC31E4C2BA0004779CF /* Model2.h */,
+				5F6EEEC41E4C2BA0004779CF /* Model2.m */,
 			);
 			path = SourceTest;
 			sourceTree = "<group>";
@@ -278,6 +283,7 @@
 			files = (
 				5F6EEE771E4AB887004779CF /* ViewController.m in Sources */,
 				5F6EEE741E4AB887004779CF /* AppDelegate.m in Sources */,
+				5F6EEEC51E4C2BA0004779CF /* Model2.m in Sources */,
 				5F6EEE711E4AB887004779CF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -514,6 +520,7 @@
 				5F6EEE9B1E4AB888004779CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5F6EEE9C1E4AB888004779CF /* Build configuration list for PBXNativeTarget "SourceTestTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +529,7 @@
 				5F6EEE9E1E4AB888004779CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5F6EEE9F1E4AB888004779CF /* Build configuration list for PBXNativeTarget "SourceTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +538,7 @@
 				5F6EEEA11E4AB888004779CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
