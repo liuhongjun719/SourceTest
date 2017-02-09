@@ -15,11 +15,8 @@
 		5F6EEE7F1E4AB888004779CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F6EEE7D1E4AB888004779CF /* LaunchScreen.storyboard */; };
 		5F6EEE8A1E4AB888004779CF /* SourceTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6EEE891E4AB888004779CF /* SourceTestTests.m */; };
 		5F6EEE951E4AB888004779CF /* SourceTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6EEE941E4AB888004779CF /* SourceTestUITests.m */; };
-<<<<<<< HEAD
-		5F6EEEC51E4C2BA0004779CF /* Model2.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6EEEC41E4C2BA0004779CF /* Model2.m */; };
-=======
 		5F6EEEC21E4C2B91004779CF /* Model1.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6EEEC11E4C2B91004779CF /* Model1.m */; };
->>>>>>> Branch1
+		5F6EEEC81E4C3365004779CF /* Model111.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6EEEC71E4C3365004779CF /* Model111.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,13 +53,9 @@
 		5F6EEE901E4AB888004779CF /* SourceTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SourceTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F6EEE941E4AB888004779CF /* SourceTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SourceTestUITests.m; sourceTree = "<group>"; };
 		5F6EEE961E4AB888004779CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-<<<<<<< HEAD
-		5F6EEEC31E4C2BA0004779CF /* Model2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model2.h; sourceTree = "<group>"; };
-		5F6EEEC41E4C2BA0004779CF /* Model2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model2.m; sourceTree = "<group>"; };
-=======
-		5F6EEEC01E4C2B91004779CF /* Model1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model1.h; sourceTree = "<group>"; };
 		5F6EEEC11E4C2B91004779CF /* Model1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model1.m; sourceTree = "<group>"; };
->>>>>>> Branch1
+		5F6EEEC61E4C3365004779CF /* Model111.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model111.h; sourceTree = "<group>"; };
+		5F6EEEC71E4C3365004779CF /* Model111.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model111.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,18 +110,14 @@
 				5F6EEE731E4AB887004779CF /* AppDelegate.m */,
 				5F6EEE751E4AB887004779CF /* ViewController.h */,
 				5F6EEE761E4AB887004779CF /* ViewController.m */,
+				5F6EEEC61E4C3365004779CF /* Model111.h */,
+				5F6EEEC71E4C3365004779CF /* Model111.m */,
 				5F6EEE781E4AB888004779CF /* Main.storyboard */,
 				5F6EEE7B1E4AB888004779CF /* Assets.xcassets */,
 				5F6EEE7D1E4AB888004779CF /* LaunchScreen.storyboard */,
 				5F6EEE801E4AB888004779CF /* Info.plist */,
 				5F6EEE6F1E4AB887004779CF /* Supporting Files */,
-<<<<<<< HEAD
-				5F6EEEC31E4C2BA0004779CF /* Model2.h */,
-				5F6EEEC41E4C2BA0004779CF /* Model2.m */,
-=======
-				5F6EEEC01E4C2B91004779CF /* Model1.h */,
 				5F6EEEC11E4C2B91004779CF /* Model1.m */,
->>>>>>> Branch1
 			);
 			path = SourceTest;
 			sourceTree = "<group>";
@@ -296,9 +285,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F6EEE771E4AB887004779CF /* ViewController.m in Sources */,
+				5F6EEEC81E4C3365004779CF /* Model111.m in Sources */,
 				5F6EEEC21E4C2B91004779CF /* Model1.m in Sources */,
 				5F6EEE741E4AB887004779CF /* AppDelegate.m in Sources */,
-				5F6EEEC51E4C2BA0004779CF /* Model2.m in Sources */,
 				5F6EEE711E4AB887004779CF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
